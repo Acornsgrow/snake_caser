@@ -21,8 +21,35 @@ Or install it yourself as:
 
 ## Usage
 
+The following example describes the basic usage.
+
 ```ruby
 SnakeCaser.lower_snake_case("CAPITAL STRING") # => "capital_string"
+```
+
+Various examples of different scenarios can be seen below. For further details
+you can look at the
+[spec/snake_caser_spec.rb](https://github.com/Acornsgrow/snake_caser/blob/master/spec/snake_caser_spec.rb)
+file.
+
+```ruby
+SnakeCaser.lower_snake_case("lower case") # => "lower_case"
+SnakeCaser.lower_snake_case("SomeString WithSpaces") # => "some_string_with_spaces"
+SnakeCaser.lower_snake_case("someString withSpaces") # => "some_string_with_spaces"
+SnakeCaser.lower_snake_case("SOME_STRING WITH_SPACES") # => "some_string_with_spaces"
+SnakeCaser.lower_snake_case("some_string with_spaces") # => "some_string_with_spaces"
+SnakeCaser.lower_snake_case("LOTRFan TNGFan") # => "lotr_fan_tng_fan"
+SnakeCaser.lower_snake_case("Some String3") # => "some_string3"
+SnakeCaser.lower_snake_case("Some/ Str;ing") # => "some__str_ing"
+SnakeCaser.lower_snake_case("CAPITAL") # => "capital"
+SnakeCaser.lower_snake_case("lowercase") # => "lowercase"
+SnakeCaser.lower_snake_case("SomeString") # => "some_string"
+SnakeCaser.lower_snake_case("someString") # => "some_string"
+SnakeCaser.lower_snake_case("Some_String") # => "some_string"
+SnakeCaser.lower_snake_case("some_string") # => "some_string"
+SnakeCaser.lower_snake_case("LOTRFan") # => "lotr_fan"
+SnakeCaser.lower_snake_case("SomeString3") # => "some_string3"
+SnakeCaser.lower_snake_case("Some/Str;ing") # => "some_str_ing"
 ```
 
 ## Development
