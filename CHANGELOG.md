@@ -12,4 +12,4 @@ versioning](http://www.semver.org).
 - Added: `lower_snake_case` method
 
 [Unreleased]: https://github.com/Acornsgrow/offer_system/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/Acornsgrow/offer_system/compare/1b00779...v1.0.0
+[1.0.0]: https://github.com/Acornsgrow/offer_system/compare/93f23be...v1.0.0
