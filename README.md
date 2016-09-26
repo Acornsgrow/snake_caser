@@ -1,3 +1,6 @@
+[![Code Climate](https://codeclimate.com/github/Acornsgrow/snake_caser/badges/gpa.svg)](https://codeclimate.com/github/Acornsgrow/snake_caser)
+[![Test Coverage](https://codeclimate.com/github/Acornsgrow/snake_caser/badges/coverage.svg)](https://codeclimate.com/github/Acornsgrow/snake_caser/coverage)
+[![Issue Count](https://codeclimate.com/github/Acornsgrow/snake_caser/badges/issue_count.svg)](https://codeclimate.com/github/Acornsgrow/snake_caser)
 
 # SnakeCaser
 
